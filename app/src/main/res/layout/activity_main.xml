@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ringthedoctor.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            custom:auto_cycle="true"
+            android:focusableInTouchMode="true"
+            android:fitsSystemWindows="true"
+            android:descendantFocusability="blocksDescendants"
+            custom:indicator_visibility="visible"
+            custom:pager_animation="Accordion"
+            custom:pager_animation_span="1100">
+
+
+            <Button
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/register"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Login"
+                android:textColor="#fff"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <Button
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="106dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+        </com.daimajia.slider.library.SliderLayout>
+
+
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

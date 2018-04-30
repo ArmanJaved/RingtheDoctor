@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ringthedoctor.Details_of_Items">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/food_star" />
+
+
+        <TextView
+            android:id="@+id/title_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Diet Name"
+            android:textColor="#323030"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/title_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:padding="15dp"
+            android:text="Parkinson Diet"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="22dp"
+            android:padding="15dp"
+            android:text="Diet Description"
+            android:textColor="#323030"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detail_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:padding="15dp"
+
+            android:text="Rice cake, called tteok in Korean, is a much-loved traditional dish with many many variations. No festival day, anniversary, or celebrations is complete without them. They are very chewy, and may be an acquired taste, but once you get hooked you'll crave them all the time."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/ingrediants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Ingredients"
+            android:textColor="#323030"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lv_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="15dp" />
+
+        <TextView
+            android:id="@+id/method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="Method"
+            android:textColor="#323030"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#ffffff"
+            android:padding="15dp"
+            android:text="Rice cake, called tteok in Korean, is a much-loved traditional dish with many many variations. No festival day, anniversary, or celebrations is complete without them. They are very chewy, and may be an acquired taste, but once you get hooked you'll crave them all the time."
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

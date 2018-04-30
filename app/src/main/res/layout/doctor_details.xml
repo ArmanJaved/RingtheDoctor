@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/doctorprofile"
+            android:id="@+id/circleImageView" />
+
+
+        <TextView
+            android:textStyle="normal"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Arman Javed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+                android:textSize="16sp"
+                android:textColor="#e70808"
+                android:text="Specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textStyle="bold"
+                android:paddingTop="2dp"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:id="@+id/catdoc"
+                android:text="Allergy Specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#e70808"
+            android:text="Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Hospital Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|normal"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="St-1, Block-3, Mall Road, Lahore-54000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|bold"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Hospital Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|normal"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Agha Khan Hospital, Lahore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|bold"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Contact Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|normal"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="+92-324-3370243"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|bold"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:text="Charges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:textStyle="italic|normal"
+            android:paddingLeft="10dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="N/A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/bok_appo"
+                android:layout_margin="5dp"
+                android:textAllCaps="false"
+                android:text="Book Appointment"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/rat"
+                android:layout_margin="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/black"
+                android:textAllCaps="false"
+                android:text="Rating"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
